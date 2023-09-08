@@ -9,4 +9,4 @@ RUN unzip bonativo.zip
 RUN cp -rvf bonativo/* .
 RUN rm -f bonativo.zip
 CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]
-EXPOSE 80
+EXPOSE 8080
